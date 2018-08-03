@@ -97,7 +97,7 @@ Raleway
 	#info_containner .info_inner .ul_wrap .grap .grapBox_06 {width: 350px; height: 12px; background-color: gold;}
 
 	/*history*/
-	#history_containner {height:1100px; padding-top:80px; box-sizing:border-box; min-width: 1280px; background-color:rgb(60,60,60); position: relative;}
+	#history_containner {height:1600px; padding-top:80px; box-sizing:border-box; min-width: 1280px; background-color:rgb(60,60,60); position: relative;}
 	#history_containner .history_inner {margin:0 auto; }
 	#history_containner .history_inner .content_04 {text-align: center;}
 	#history_containner .history_inner .content_04 h2, span {vertical-align: middle; color:#fff;}
@@ -105,6 +105,17 @@ Raleway
 	#history_containner .history_inner .content_04 h2 span {font-weight: 800; font-size: 60px; color: #679cff; margin-top:-10px;}
 	#history_containner .history_inner .content_04 p {margin-top:20px; font-style: italic; margin-bottom: 100px; color:#fff;}
 
+	#history_containner .history_inner .content_05 li {width: 300px; height: 147px; margin:0 auto; overflow: hidden;}
+	#history_containner .history_inner .content_05 span {font-size: 18px; color: gold;}
+	#history_containner .history_inner .content_05 h3 {font-size: 50px; color:#fff; font-weight: 800;}
+	#history_containner .history_inner .content_05 p {font-size: 12px; color:#fff; margin-top:10px;}
+	#history_containner .history_inner .content_05 li {margin-bottom:30px;}
+	#history_containner .history_inner .content_05 li:nth-child(even) {margin-left:50%; padding-left: 80px; box-sizing: border-box;}
+	#history_containner .history_inner .content_05 li:nth-child(odd) {margin-right:50%; padding-right: 80px; box-sizing: border-box;}
+	#history_containner .history_inner .borderBox {width: 2px; height:888px; background-color:#679cff; position: absolute; margin-left:50%; top:285px;}
+	#history_containner .history_inner .check_wrap {color:#679cff; font-size: 17px; position: absolute; margin-left:49.7%; top:280px;}
+	#history_containner .history_inner .check_wrap .checkBorder_02, .checkBorder_03, .checkBorder_04, .checkBorder_05, .checkBorder_06 {margin-top: 157px;}
+	
 	/*portfolio*/
 	#portfolio_containner {height:100%; box-sizing:border-box; min-width: 1280px; position: relative;}
 	#portfolio_containner .portfolio_inner {height:100%; background:url(../images/index/bg_01.jpg) center center no-repeat; background-size: cover; background-attachment: fixed; text-align:center; position:relative; }
@@ -127,13 +138,13 @@ Raleway
 	#contact_containner .contact_inner {margin:0 auto;  text-align: center;}
 	#contact_containner .contact_inner .content_wrap {top:-280px; position:absolute; width: 45%; height: 600px; background-color:rgb(255,255,255); box-sizing: border-box;  margin-left:27%; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 		text-align: center;}
-	#contact_containner .contact_inner .content_inner a {position:absolute; margin-top:50px; padding: 17px 50px; background-color:rgb(60,60,60); border-radius: 30px; transition:all 0.2s; margin-left:-10%; color:#fff;}
+	#contact_containner .contact_inner .content_inner a {position:absolute; margin-top:50px; padding: 17px 70px; background-color:rgb(60,60,60); border-radius: 30px; transition:all 0.2s; margin-left:-10%; color:#fff;}
 	#contact_containner .contact_inner .content_inner a:hover {background-color: gold;  box-shadow: 5px 5px 10px rgba(0,0,0,0.2); color:black;}
 	#contact_containner .contact_inner .content_inner .content_wrap .resume_wrap, .input_wrap {float:left;}
 	#contact_containner .contact_inner .content_inner .content_wrap::after {content:""; clear:both; display:block;}
-	#contact_containner .contact_inner .content_inner .content_wrap .resume_wrap{margin-left: 40px; width:40%;}
+	#contact_containner .contact_inner .content_inner .content_wrap .resume_wrap{margin-left: 8%; width:40%;}
 	#contact_containner .contact_inner .content_inner .content_wrap .resume_wrap .resume { text-align: center; margin:100px auto;}
-	#contact_containner .contact_inner .content_inner .content_wrap .resume h3 {font-size: 50px; font-weight: 700; margin-bottom: 60px;}
+	#contact_containner .contact_inner .content_inner .content_wrap .resume h3 {font-size: 50px; font-weight: 700; margin-bottom: 60px; text-align: left;}
 	#contact_containner .contact_inner .content_inner .content_wrap .resume p {font-size: 18px; text-align:left; color:rgb(60,60,60); line-height: 1.6;}
 	#contact_containner .contact_inner .content_inner .content_wrap .resume h4 {margin:20px 0 20px; font-size: 18px; text-align:left; color:rgb(60,60,60); line-height: 1.6; font-family: "Open Sans", sans-serif; font-weight: 400;}
 
