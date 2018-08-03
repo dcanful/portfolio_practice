@@ -69,19 +69,34 @@ Raleway
 	/*info*/
 	#info_containner {height:1100px; padding-top:80px; box-sizing:border-box; min-width: 1280px; background-color:rgb(60,60,60); position: relative;}
 	#info_containner .info_inner {margin:0 auto; }
+		/*top content*/	
 	#info_containner .info_inner .content_wrap {top:-300px; position:absolute; width: 45%; height: 600px; background-color:#679cff; box-sizing: border-box; margin-left:27%; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 		text-align: center;}
-	#info_containner .info_inner .content_wrap a {position:absolute; margin-top:50px; padding: 17px 50px; background-color:rgb(60,60,60); border-radius: 30px; transition:all 0.2s; margin-left:-10%; color:gold;}
-	#info_containner .info_inner .content_wrap a:hover {background-color: gold;  box-shadow: 5px 5px 10px rgba(0,0,0,0.2); color:black;;}
-	#info_containner .info_inner .content_wrap .resume {text-align: center; margin-top:100px;}
-	#info_containner .info_inner .content_wrap .resume p {margin-top:80px; font-size: 18px; color:#fff; line-height: 1.6; font-family: "Open Sans", sans-serif; font-weight: 100;}
+	#info_containner .info_inner .content_wrap .aclass {position:absolute; margin-top:50px; padding: 17px 50px; background-color:rgb(60,60,60); border-radius: 30px; transition:all 0.2s; margin-left:-10%; color:gold; }
+	#info_containner .info_inner .content_wrap .aclass:hover {background-color: gold;  box-shadow: 5px 5px 10px rgba(0,0,0,0.2); color:black;}
+	#info_containner .info_inner .content_wrap .resume {text-align: center;}
+	#info_containner .info_inner .content_wrap .resume .contBox {float:left; width: 50%;}
+	#info_containner .info_inner .content_wrap .resume::after {content: ""; clear: both; display: block;}
+	#info_containner .info_inner .content_wrap .content_inner {margin-top:80px;}
+	#info_containner .info_inner .content_wrap .resume .contBox p {width: 90%; text-align: left; margin-top:40px; font-size: 18px; color:#fff; line-height: 1.6; font-family: "Open Sans", sans-serif; font-weight: 100;}
+	#info_containner .info_inner .content_wrap .resume .contBox p em {text-align: left; font-size: 40px; color:#fff; font-family: "Open Sans", sans-serif; font-weight: 800;}
+	#info_containner .info_inner .content_wrap .resume .contBox div {text-align: left; font-size: 15px; color:#fff; line-height: 1.6; font-family: "Open Sans", sans-serif; font-weight: 100; margin-top:30px;}
 
+	#info_containner .info_inner .content_wrap .profile_wrap {width: 50%; margin-right:0; box-sizing: border-box; float: left;}
+	#info_containner .info_inner .content_wrap .profile {width:300px; height:300px; border-radius: 50%; overflow: hidden; box-shadow:4px 4px 10px rgba(0,0,0,0.3);
+		margin-left: 15%; margin-top:30px;}
+	#info_containner .info_inner .content_wrap .profile img {width:100%;}
+	#info_containner .info_inner .content_wrap .icon_wrap ul {margin-top: 10px;}
+	#info_containner .info_inner .content_wrap .icon_wrap ul::after {content: ""; clear: both; display: block;}
+	#info_containner .info_inner .content_wrap .icon_wrap li {float: left;}
+
+		/*bottem content*/
 	#info_containner .info_inner .content_02 {text-align: center; margin-top:300px; }
 	#info_containner .info_inner .content_02 h2, span {vertical-align: middle; color:#fff;}
 	#info_containner .info_inner .content_02 h2 {font-size: 50px; font-weight: 700;}
 	#info_containner .info_inner .content_02 h2 span {font-weight: 800; font-size: 60px; color: #679cff;}
 	#info_containner .info_inner .content_02 p {margin-top:20px; font-style: italic; margin-bottom: 100px; color:#fff;}
-
+		
 	#info_containner .info_inner .ul_wrap {margin:0 auto; width:980px;}
 	#info_containner .info_inner .ul_wrap li {line-height: 5;}
 	#info_containner .info_inner .ul_wrap li::after {content:""; display: block; clear:both; }
@@ -97,7 +112,9 @@ Raleway
 	#info_containner .info_inner .ul_wrap .grap .grapBox_06 {width: 350px; height: 12px; background-color: gold;}
 
 	/*history*/
-	#history_containner {height:1600px; padding-top:80px; box-sizing:border-box; min-width: 1280px; background-color:rgb(60,60,60); position: relative;}
+	#history_containner {height:1600px; padding-top:80px; box-sizing:border-box; min-width: 1280px; background-color:rgb(60,60,60); position: relative; z-index: -2;}
+	#history_containner .content_bg {position: absolute; left:0; top:45px; right: 0; bottom: 0; z-index: -1;}
+	#history_containner .content_bg2 {position: absolute; left:0; top:650px; right: 0; bottom: 0; }
 	#history_containner .history_inner {margin:0 auto; }
 	#history_containner .history_inner .content_04 {text-align: center;}
 	#history_containner .history_inner .content_04 h2, span {vertical-align: middle; color:#fff;}
