@@ -126,11 +126,19 @@ Raleway
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 h2 span {font-weight: 800; font-size: 60px; color: #fff; margin-top:-10px;}
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 a {color:#fff;}
 
-	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox {float:left; margin-top:60px; position: relative; overflow: hidden;}
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox {float:left; margin-top:60px; position: relative; width:358px; height: 358px; overflow: hidden;}
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox img {width:358px; height: 358px; transition: all 0.4s;}
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox:hover img {transform:scale(1.1)}
-	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox:hover a::after {opacity:1;}
-	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox a::after {content: ""; opacity:0; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color:rgba(0,0,0,0.8); transition: all 0.4s;}
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox:hover p {opacity:1;}
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox:hover .pclass::before {transform:scale(1);}
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox:hover .pclass::after {transform:scale(1);}
+
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox .pclass::before,
+    #portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox .pclass::after {content: ""; position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px; transition:all 0.4s; }
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox .pclass::before {border-top:1px solid #fff; border-bottom: 1px solid #fff; transform:scale(0,1);}
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox .pclass::after {border-left:1px solid #fff; border-right: 1px solid #fff; transform:scale(1,0);}
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox p {opacity:0; text-transform: uppercase; position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.8); color: #fff; line-height: 358px; text-align: center; font-size: 26px; font-weight: 100; font-family: "Raleway", sans-serif; transition: all 0.4s;}
 
 	/*contact*/
 	#contact_containner {height:500px; padding-top:80px; box-sizing:border-box; min-width: 1280px; background-color:rgb(60,60,60); position: relative;}
