@@ -96,6 +96,15 @@ Raleway
 	#info_containner .info_inner .ul_wrap .grap .grapBox_05 {width: 370px; height: 12px; background-color: gold;}
 	#info_containner .info_inner .ul_wrap .grap .grapBox_06 {width: 350px; height: 12px; background-color: gold;}
 
+	/*history*/
+	#history_containner {height:1100px; padding-top:80px; box-sizing:border-box; min-width: 1280px; background-color:rgb(60,60,60); position: relative;}
+	#history_containner .history_inner {margin:0 auto; }
+	#history_containner .history_inner .content_04 {text-align: center;}
+	#history_containner .history_inner .content_04 h2, span {vertical-align: middle; color:#fff;}
+	#history_containner .history_inner .content_04 h2 {font-size: 50px; font-weight: 700;}
+	#history_containner .history_inner .content_04 h2 span {font-weight: 800; font-size: 60px; color: #679cff; margin-top:-10px;}
+	#history_containner .history_inner .content_04 p {margin-top:20px; font-style: italic; margin-bottom: 100px; color:#fff;}
+
 	/*portfolio*/
 	#portfolio_containner {height:100%; box-sizing:border-box; min-width: 1280px; position: relative;}
 	#portfolio_containner .portfolio_inner {height:100%; background:url(../images/index/bg_01.jpg) center center no-repeat; background-size: cover; background-attachment: fixed; text-align:center; position:relative; }
@@ -103,7 +112,7 @@ Raleway
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 {text-align: center; margin-top:80px;}
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 h2, span {vertical-align: middle;}
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 h2 {font-size: 50px; font-weight: 700; color:rgba(255,255,255,0.7);}
-	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 h2 span {font-weight: 800; font-size: 60px; color: #fff;}
+	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 h2 span {font-weight: 800; font-size: 60px; color: #fff; margin-top:-10px;}
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_02 a {color:#fff;}
 
 	#portfolio_containner .portfolio_inner .coontent_wrap .content_03 .portBox {float:left; margin-top:60px; position: relative; overflow: hidden;}
@@ -130,13 +139,16 @@ Raleway
 
 	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap {width: 40%; text-align: center; margin-left: 20px; box-sizing: border-box;}
 	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox {margin:100px auto;}
-	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .innerwrap_01 {width: 40px;}
-	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .innerwrap_02 {width: 100%; margin-top: 5px;}
-	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .input_01 {border-bottom: 1px solid #000; margin-right:10px;}
-	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .input_02 {border-bottom: 1px solid #000; margin-right:10px;}
-	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox input {border:0; width: 100%; box-sizing: border-box; padding:0 10px; height: 50px; background:transparent;}
-	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox textarea {border:0; width: 100%; box-sizing: border-box; padding:0 10px; height: 200px; background:transparent;}
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .innerwrap_01::after {content:""; clear:right; display: block;}
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .innerwrap_01 {width: 50%; float:left; padding-right: 10px; box-sizing: border-box;}
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .innerwrap_02 {width: 50%; float:right; padding-left: 10px; box-sizing: border-box;}
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .innerwrap_03 {width: 100%; margin-top: 5px;}
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .input_01 { border-bottom: 1px solid #000; }
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .input_02 { border-bottom: 1px solid #000; }
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox .input_03 {width: 100%; border-bottom: 1px solid #000; margin-right:10px;}
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox input {border:0; width: 100%; box-sizing: border-box; height: 50px; background:transparent;}
+	#contact_containner .contact_inner .content_inner .content_wrap .input_wrap #innerBox textarea {border:0; width: 100%; box-sizing: border-box; height: 200px; background:transparent;}
 
 	/*footer*/
-	#footer_container .copy {width: 100%; height:100px; background-color: rgb(60,60,60); color:#fff; font-size: 16px; letter-spacing: -1px;
+	#footer_container .copy {width: 100%; height:100px; background-color: rgb(50,50,50); color:#fff; font-size: 16px; letter-spacing: -1px;
 		text-align: center; line-height: 100px;}
